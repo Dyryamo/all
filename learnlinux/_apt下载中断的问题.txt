@@ -1,0 +1,11 @@
+我在用apt装sublime到时候中断了。更恐怖的是坑的吧已经下载的一段删除了，于是
+再用apt安装的时候会报这样的信息
+	软件包 sublime-text-installer需要重新安装，但是我无法找到相应的安装文件
+经过一天的奋战之后在一个博客里找到
+	
+
+	    sudo dpkg --remove --force-remove-reinstreq opera-stable  
+
+附上链接
+	http://blog.csdn.net/willduan1/article/details/51232116
+
