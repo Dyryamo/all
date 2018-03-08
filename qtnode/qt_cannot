@@ -1,0 +1,4 @@
+  在ubuntu下使用Qt 编译时候遇上了cannot find -lGL错误,使用命令
+
+
+  sudo apt-get install libqt4-dev或者sudo apt-get install libgl1-mesa-dev或者libgl1-mesa-dev或者libglu1-mesa-dev
